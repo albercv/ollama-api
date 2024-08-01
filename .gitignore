@@ -1,0 +1,90 @@
+# Entorno virtual
+venv/
+llama_env/
+ollama_env/
+*.pyc
+__pycache__/
+
+# Configuración de entorno
+.env
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de log
+*.log
+
+# Archivos de caché de Flask/Quart
+instance/
+.cache/
+*.sqlite3
+flask_session/
+
+# Archivos de sesión
+*.session
+
+# Archivos creados por el sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de ejecución y cobertura de pruebas
+.coverage
+coverage.xml
+*.cover
+*.coverage.*
+
+# Archivos de informes de pruebas
+test-reports/
+tests/__pycache__/
+tests/*.pyc
+
+# Archivos de documentación
+docs/_build/
+
+# Otros archivos
+*.bak
+*.swp
+*.swo
+
+# PyInstaller
+# Generalmente estos archivos son escritos por un script de Python desde una plantilla antes de que PyInstaller construya el exe, para inyectar fecha/u otra información en él.
+*.manifest
+*.spec
+
+# Registros del instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyenv
+.python-version
+
+# Archivos de beat schedule de Celery
+celerybeat-schedule
+
+# Archivos procesados de SageMath
+*.sage.py
+
+# Documentación de Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm
+.idea/
+
+# Docker
+*.dockerfile
+docker-compose.yml
+
+# Redis data
+dump.rdb
